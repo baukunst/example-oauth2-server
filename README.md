@@ -1,6 +1,7 @@
 # Example for OAuth 2 Server
 
-This is an example of OAuth 2 Server.
+This is an example of OAuth 2 Server with preseed by baukunst.io
+__Never ever use in production!__
 
 Find more details on <http://lepture.com/en/2013/create-oauth-server>
 
@@ -42,3 +43,12 @@ will obtain a pair of access token and secret.
 you can access the authorized data:
 
     [![04_oauth_client_retrieves_data.png](img/04_oauth_client_retrieves_data.png)]()
+
+
+# Changed by baukunst
+
+## 2016-07-20
+
+* Preeseeded db.sqlite file
+* Changed binding to 0.0.0.0 do allow run in docker container
+* Added Dockerfile
